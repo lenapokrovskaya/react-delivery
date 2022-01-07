@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.page-body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    height: 100%;
+}
+
+
+.page-catalog {
+    background-color: #161516;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 51px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .page-header {
+        justify-content: space-between;
+        padding-top: 51px;
+        padding-bottom: 80px;
+        flex-direction: row;
+    }
+}
+
+
+.page-title {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .page-title {
+    font-size: 31px;
+    }
+}
+
+.page-cart .page-header {
+    justify-content: center;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 708px;
+      padding: 0 30px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container {
+      width: 1300px;
+      padding: 0 70px;
+    }
+}
+
+.page-basket {
+    position: relative;
+    max-width: 151px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: right;
+    margin-right: 70px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-basket:hover {
+  opacity: 0.8;
+}
+
+.page-basket::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -70px;
+    width: 50px;
+    height: 50px;
+    background-color: #D58C51;
+    border-radius: 50%;
+    
+}
+
+.page-basket::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: -55px;
+    width: 21px;
+    height: 21px;
+    background-image: url("/src/assets/images/icon-basket.svg");
+    background-repeat: no-repeat;
+}
+
+.catalog__list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 36px;
+    padding-bottom: 67px;
+}
+
+@media (min-width: 768px) {
+    .catalog__list {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .catalog__list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+

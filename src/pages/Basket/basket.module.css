@@ -1,0 +1,191 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+      width: 708px;
+      padding: 0 30px;
+    }
+  }
+@media (min-width: 1440px) {
+    .container {
+      width: 1300px;
+      padding: 0 70px;
+    }
+}
+
+.page-body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    height: 100%;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 51px;
+    padding-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+    .page-header {
+        justify-content: space-between;
+        padding-top: 51px;
+        padding-bottom: 80px;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+
+.page-title {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .page-title {
+    font-size: 31px;
+    }
+}
+
+.page-cart .page-header {
+    justify-content: center;
+}
+
+
+.page-cart {
+    background-color: #161516;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    padding-bottom: 102px;
+}
+
+.cart__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .cart__item {
+        flex-direction: row;
+    }
+}
+
+.cart__title {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    max-width: 270px;
+}
+
+.cart__specifications {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #D58C51;
+}
+
+.cart__button {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: transparent;
+    transform:rotate(45deg);
+}
+
+.cart__button::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 13px;
+    height: 2px;
+    background-color: #D58C51;
+    border-radius: 5px;
+}
+
+.cart__button::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 2px;
+    height: 13px;
+    background-color: #D58C51;
+    border-radius: 5px;
+}
+
+.page-footer {
+    border-top: 1px solid #D58C51;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    background-color: #161516;
+}
+
+.page-footer__order {
+    background-color: #161516;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order__button {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    width: 200px;
+    height: auto;
+    padding: 12px 40px 13px 40px;
+    color: #131313;
+    background-color: #D58C51;
+    border: none;
+    cursor: pointer; 
+    text-decoration: none;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .order__button {
+        height: 42px;
+    }
+}
+
+.order__price {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .order__price {
+        padding: 0;
+    }
+}
