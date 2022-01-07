@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-delivery/static/css/main.aad35238.css",
-    "main.js": "/react-delivery/static/js/main.479753af.js",
+    "main.js": "/react-delivery/static/js/main.09adfa21.js",
     "static/js/787.e7ee28f0.chunk.js": "/react-delivery/static/js/787.e7ee28f0.chunk.js",
     "static/media/bg-form.jpg": "/react-delivery/static/media/bg-form.5e25f29a2b91d2ed7f5b.jpg",
     "static/media/rockefeller-oysters-big.png": "/react-delivery/static/media/rockefeller-oysters-big.2363fec18ac2399bbc0b.png",
@@ -10,11 +10,11 @@
     "static/media/icon-basket.svg": "/react-delivery/static/media/icon-basket.5e485d281816b03562c0.svg",
     "index.html": "/react-delivery/index.html",
     "main.aad35238.css.map": "/react-delivery/static/css/main.aad35238.css.map",
-    "main.479753af.js.map": "/react-delivery/static/js/main.479753af.js.map",
+    "main.09adfa21.js.map": "/react-delivery/static/js/main.09adfa21.js.map",
     "787.e7ee28f0.chunk.js.map": "/react-delivery/static/js/787.e7ee28f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aad35238.css",
-    "static/js/main.479753af.js"
+    "static/js/main.09adfa21.js"
   ]
 }

@@ -11,7 +11,7 @@ function App() {
       {/* <Main></Main>
       <Basket></Basket> */}
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="react-delivery" element={<Main />} />
         <Route path="basket" element={<Basket />} />
         <Route path="form" element={<Form />} />
       </Routes>
